@@ -3,3 +3,86 @@ An enumeration (enum for short) in Java is a special data type which contains a 
 You'll usually use an enum when dealing with values that aren't required to change, like days of the week, seasons of the year, colors, and so on.
 
 In this article, we'll see how to create an enum and how to assign its value other variables. We'll also see how to use an enum in switch statements or loop through its values.
+**************************************************************************************
+If we want to get the index number of any of the values, we would have to use the 
+ordinal() method. Here is an example:
+
+enum Colors {
+  RED,
+  BLUE,
+  YELLOW,
+  GREEN
+}
+
+public class Main { 
+  public static void main(String[] args) { 
+  
+    Colors red = Colors.RED; 
+    
+    System.out.println(red.ordinal()); 
+    // 0
+  } 
+}
+**************************************************************************************
+How to Use an Enum in a Switch Statement
+In this section, we'll se how we can use an enum in a switch statement.
+
+Here is an example:
+
+  public class Main { 
+      enum Colors {
+      RED,
+      BLUE,
+      YELLOW,
+      GREEN
+  }
+  public static void main(String[] args) { 
+    
+    Colors myColor = Colors.YELLOW;
+
+    switch(myColor) {
+      case RED:
+        System.out.println("The color is red");
+        break;
+      case BLUE:
+         System.out.println("The color is blue");
+        break;
+      case YELLOW:
+        System.out.println("The color is yellow");
+        break;
+      case GREEN:
+        System.out.println("The color is green");
+        break;
+    }
+  } 
+}
+
+**********************************************************************************
+How to Loop Through the Values of an Enum
+enum in Java has a values() method that returns an array of the values of an enum. We're going to use a for-each loop to iterate through and print the values of our enum.
+
+Here's how we can do that:
+
+enum Colors {
+  RED,
+  BLUE,
+  YELLOW,
+  GREEN
+}
+
+public class Main { 
+  public static void main(String[] args) { 
+      
+      for (Colors allColors : Colors.values()) {
+      System.out.println(allColors);
+      
+      /* 
+      RED
+      BLUE
+      YELLOW
+      GREEN
+      */
+    }
+    
+  } 
+}
