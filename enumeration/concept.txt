@@ -1,0 +1,5 @@
+An enumeration (enum for short) in Java is a special data type which contains a set of predefined constants.
+
+You'll usually use an enum when dealing with values that aren't required to change, like days of the week, seasons of the year, colors, and so on.
+
+In this article, we'll see how to create an enum and how to assign its value other variables. We'll also see how to use an enum in switch statements or loop through its values.
