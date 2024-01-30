@@ -1,0 +1,11 @@
+1. In this problem, we have two method to search an elemnt in the array.
+   The first one is: Binary Search and Second one is Linear Search
+
+2. Our logic here is to give annotation to the binary search for optimisation of 
+   searching element in the array.
+
+---------------------------------------------------------------------
+Documentation for class design:
+1. SearchMethods.java: this java file contains main method and entry point of our application
+2. UserInput.java: this java class file will take the input from user and then store data
+                    in the array. We will use bufferStream to do the job. 
