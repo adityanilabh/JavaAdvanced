@@ -7,5 +7,10 @@
 ---------------------------------------------------------------------
 Documentation for class design:
 1. SearchMethods.java: this java file contains main method and entry point of our application
-2. UserInput.java: this java class file will take the input from user and then store data
-                    in the array. We will use bufferStream to do the job. 
+    - The class with have main function, will contains functions like userinput,check 
+      execution time for each search and output elements.
+2. ArrayMethodsInterface.java: this file will contains interface and all the method declaration
+    - like input from user, output, binary search and linear search
+
+3. ArrayMethod.java : this java class will implements ArrayMethodsInterface and will have logic
+   override methods of it's interface, it contains USER DEFINED ANNOTATION.

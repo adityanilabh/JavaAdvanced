@@ -10,6 +10,6 @@ public interface ArrayMethodsInterface{
 
      Integer userInput();
 
-     void outputElement(int startTime,int endTime);
+     void outputElement(long startTime,long endTime);
 
 }

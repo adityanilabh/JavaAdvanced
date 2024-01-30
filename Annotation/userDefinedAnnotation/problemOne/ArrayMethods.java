@@ -27,6 +27,7 @@ public class ArrayMethods implements ArrayMethodsInterface{
      }
 
     @Override
+    @EfficientSearch(comments="this method use binary search for faster search")
      public boolean BinarySearch(ArrayList<Integer>list1,Integer target)
      {
               int endPoint=list1.size();
@@ -97,5 +98,5 @@ public class ArrayMethods implements ArrayMethodsInterface{
     @Retention(RetentionPolicy.RUNTIME)
     @interface EfficientSearch {
     String comments() default "";
-     }
+    }
 }
