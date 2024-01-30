@@ -1,13 +1,15 @@
-public interface ArrayMethodInterface{
+import java.util.ArrayList;
 
-     boolean LinearSearch(ArrayList<Integer>list,int target);
+public interface ArrayMethodsInterface{
 
-     boolean BinarySearch(ArrayList<Integer>list,int target);
+     boolean LinearSearch(ArrayList<Integer>list,Integer target);
+
+     boolean BinarySearch(ArrayList<Integer>list,Integer target);
 
      ArrayList<Integer> userInput(ArrayList<Integer>arr1);
 
      Integer userInput();
 
-     outputElement(int startTime,int endTime);
+     void outputElement(int startTime,int endTime);
 
 }

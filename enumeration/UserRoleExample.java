@@ -1,6 +1,4 @@
-// Enum declaration representing user roles
-import java.util.*;
-import java.io.*;
+
 enum UserRole {
     ADMIN("Administrator", "Full access to all features"),
     MANAGER("Manager", "Manage teams and projects"),
