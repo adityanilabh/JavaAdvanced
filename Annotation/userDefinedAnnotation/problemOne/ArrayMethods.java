@@ -1,5 +1,9 @@
 import java.util.*;
 import java.io.*;
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
 public class ArrayMethods implements ArrayMethodsInterface{
     private BufferedReader reader;
 
@@ -88,4 +92,10 @@ public class ArrayMethods implements ArrayMethodsInterface{
         long outputResult= startTime-endTime;
         System.out.println(outputResult);
     }
+
+    @Target(ElementType.METHOD)
+    @Retention(RetentionPolicy.RUNTIME)
+    @interface EfficientSearch {
+    String comments() default "";
+     }
 }
