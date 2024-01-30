@@ -1,0 +1,13 @@
+In Java, annotations are a form of metadata that can be added to Java source code. 
+Annotations provide additional information about the code to compilers, tools, and 
+run-time environments. They do not directly affect the program's logic but can 
+influence the way the program is treated by tools or libraries.
+
+Annotations are introduced using the @ symbol followed by the annotation name. 
+They can be applied to various program elements, including classes, methods, fields, 
+parameters, and more.
+
+Built-in Annotations:
+Java provides several built-in annotations, such as @Override, @Deprecated, and 
+@SuppressWarnings. These annotations help the compiler and tools to catch potential 
+issues, provide documentation, or suppress warnings.
