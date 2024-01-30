@@ -1,0 +1,39 @@
+Jesse PinkMan: 
+Yo, Mr. White! So, like, you know when we gotta stash our precious info, 
+like a top-secret recipe or something? What if we could turn that info into a 
+magical mini version, like, put it in a little box, and then easily send it across 
+town or stash it in our hideout? Can we do that, Mr. White? Is there some kind of 
+wizardry to make This Thing happen in Java Yo!?
+
+walter white: 
+Jesse, i knew you are an idiot but somehow i was not expecting this question from you.
+This is what happen when you don't attend my computer science class:
+Here is a simple explanation for you Jesse: 
+"
+Serialization is like turning an object (a bunch of data and its behavior) 
+into a form that can be easily saved, sent across the internet, or stored in a 
+file. It's like putting your favorite toy into a box so you can give it to a 
+friend or keep it safe for later.
+
+Imagine you have a magic spell that can turn your toy into a small, 
+compact version that you can easily share with others. That's what 
+serialization does to objects in Java. It takes all the information about an 
+object and turns it into a package (like a magical box) that can be easily moved 
+around or saved for later.
+
+Later, when you want to use your toy again, you can use another magic spell 
+(deserialization) to turn it back into its original form, with all its details 
+and features intact. This way, you can share objects between programs, save them 
+to your computer, or send them to your friends over the internet.
+"
+
+jesse pinkman: 
+Yo, Mr. White! You mean, like, you're telling me we can turn our super-secret 
+code into some kind of tiny, transportable thing? Like, we can just zap it into 
+this, like, travel-size version and then, bam, send it wherever we want? That's, 
+like, some serious next-level stuff, man. Science, b*tch!
+
+Walter White: 
+Jesse , not Science, It's computer science;
+
+Jesse: Same thing yo!
