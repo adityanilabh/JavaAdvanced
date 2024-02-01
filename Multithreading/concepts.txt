@@ -7,5 +7,10 @@ Blocked state emphasizes involuntary pauses, where a thread is prevented from pr
 By using distinct terms, it becomes clearer in discussions and debugging whether a thread is intentionally waiting or involuntarily blocked. This distinction aids developers in analyzing and addressing concurrency issues effectively.
 
 
+--------------------------------------------------------------------------------------
+how to learn multithreading in java?
+1. learn how to initialise:  2types
+2. learn about life cycle
+3. learn about thread syncronisation
 
 

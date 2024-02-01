@@ -1,4 +1,4 @@
-package Multithreading.Initialisation;
+package Multithreading.Initialisation.ExtendInitialisation;
 
 public class MultiThreadingDemo extends Thread{
     public void run(){

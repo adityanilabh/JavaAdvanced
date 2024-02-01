@@ -1,4 +1,4 @@
-package Multithreading.Initialisation;
+package Multithreading.Initialisation.ExtendInitialisation;
 /* made this program by implementing extend method for initialisation */
 
 import java.io.BufferedReader;

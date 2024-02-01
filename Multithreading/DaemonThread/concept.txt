@@ -3,3 +3,23 @@ What is daemon Thread?
     garbage collection or to provide service to user thread. Life of Daemon Thread depends on
     mercy of user thread. This means when all process finish their execution , JVM will automatially stop it.
 
+Example of Daemon Thread?
+--- Example of Daemon Thread in Java
+    Some examples of daemon threads in Java include garbage collection (gc) and finalizer. 
+    These threads work silently in the background, performing tasks that support the main 
+    execution without interfering with the user’s operations.
+
+Properties of Java Daemon Thread
+
+--- No Preventing JVM Exit: Daemon threads cannot prevent the JVM from exiting when all 
+    user threads finish their execution. If all user threads complete their tasks, the JVM 
+    terminates itself, regardless of whether any daemon threads are running.
+   -Automatic Termination: If the JVM detects a running daemon thread, it terminates the 
+    thread and subsequently shuts it down. The JVM does not check if the daemon thread is 
+    actively running; it terminates it regardless.
+    -Low Priority: Daemon threads have the lowest priority among all threads in Java.
+
+--------------------------------------------------------------------------------
+
+Always declare daemon thread before start(), alwasy use setDaemon() before start().
+

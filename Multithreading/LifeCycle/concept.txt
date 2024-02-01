@@ -1,0 +1,11 @@
+Thread have following states :
+1. Start(): thread start in the program.
+2. runnable(): in runnable state, thread is either in running state or in running stack 
+                in runnable state.
+3. block():  in this state, thread is in waiting state waiting for lock from another thread.
+             after only getting lock from other thread will it execute.
+4. wait(): in this state thread are voluntary wait for some execution.
+5. timedWait(): it is an state where thread are in sleep() for some period of time.
+6. termintate(): after execution thread are terminated with this state.
+--------------------------------------------------------------------------------
+following is a code for producer consumer problem: 

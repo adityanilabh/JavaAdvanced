@@ -1,0 +1,11 @@
+what is deadlock?
+- it is a condition in which set of process are blocked because each process is holding
+  a resource and waiting for  another resource aquired by some resource.
+
+-- what is race condition?
+ A race condition is a situation that may occur inside a critical section. 
+ This happens when the result of multiple thread execution in the critical 
+ section differs according to the order in which the threads execute.
+
+what is semaphore?
+-- a process syncronisation technique.
