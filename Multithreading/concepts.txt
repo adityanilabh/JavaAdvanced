@@ -1,0 +1,11 @@
+If wait and block both  are doing similar thing like making tread execution stop for a certain type
+then why don't we just use wait with added conditions?
+-----While both waiting and blocked states involve waiting for something, the terms help convey different aspects of thread behavior and potential issues:
+
+Waiting state emphasizes intentional pauses, where a thread decides to wait for a specific condition or event.
+Blocked state emphasizes involuntary pauses, where a thread is prevented from proceeding due to contention for a resource (usually a lock).
+By using distinct terms, it becomes clearer in discussions and debugging whether a thread is intentionally waiting or involuntarily blocked. This distinction aids developers in analyzing and addressing concurrency issues effectively.
+
+
+
+
