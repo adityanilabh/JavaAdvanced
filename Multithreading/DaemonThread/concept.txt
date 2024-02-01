@@ -1,0 +1,5 @@
+What is daemon Thread? 
+--- Daemon thread are low priority thread that run in the background to perform task such as 
+    garbage collection or to provide service to user thread. Life of Daemon Thread depends on
+    mercy of user thread. This means when all process finish their execution , JVM will automatially stop it.
+
