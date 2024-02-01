@@ -1,0 +1,2 @@
+What is serialisation?
+converting our object to byteStream is called serialisation.
