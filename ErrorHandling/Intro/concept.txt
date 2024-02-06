@@ -1,0 +1,11 @@
+Why Use error handling?
+--The Exception Handling in Java is one of the powerful mechanism to handle
+ the runtime errors so that the normal flow of theapplication can be maintained. 
+
+-- Important Point-------
+-- It Handle Runtime errors.
+
+--------------------------------------------------------------------
+What is Exception Handling?
+Exception Handling is a mechanism to handle runtime errors such as 
+ClassNotFoundException, IOException, SQLException, RemoteException, etc.
