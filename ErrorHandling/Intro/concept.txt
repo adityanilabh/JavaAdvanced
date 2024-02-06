@@ -25,4 +25,25 @@ civilized and specify or catch the exceptions.
 
 ==========================================================================
 
-Exceptions that comes under Checked Exception: 
+Exceptions that comes under Checked Exception:
+1. IO Exception
+2. SQL Exception
+3. Interrupted Exception
+4. Remote Exception
+All of the above directly implements thorwable.
+
+========================================================================
+
+Exceptions that comes under Unchecked exception: 
+
+RumtimeException: 
+  1. Airthmetic Exception
+  2. NullPointer Exception
+  3. NumberFormat Exception
+  4. IndexOutOfBound Exception.
+
+========================================================================
+Error: 
+Error is irrecoverable. Some example of errors are OutOfMemoryError, 
+VirtualMachineError, AssertionError etc.
+
