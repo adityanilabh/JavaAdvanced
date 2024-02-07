@@ -7,7 +7,8 @@ public class NestedTryCatch {
             // dividing by zero
             try{
                 System.out.println("dividing by zero will cause this exception below");
-                int data=43/0;
+                int data1=43/0;
+                System.out.println(data1);
             }
             catch(ArithmeticException e){
                    System.out.println(""+e.getMessage());
@@ -29,6 +30,7 @@ public class NestedTryCatch {
         {
             System.out.println("Message showing this will behave as catch if primary try don't work!: "+ e.getMessage());
         }
+        
         System.out.println("this line is out of try catch!");
 
     }

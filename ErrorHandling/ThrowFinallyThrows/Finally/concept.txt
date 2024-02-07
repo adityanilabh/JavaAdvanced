@@ -1,0 +1,26 @@
+In Java exception handling, the finally block is used to execute important 
+code regardless of whether an exception is thrown or not. It ensures that 
+certain code is always executed, typically for cleanup or resource management 
+purposes. The finally block is optional but very useful in situations where you 
+need to release resources, close connections, or perform other cleanup tasks.
+
+===============================================================================
+
+Execution Guarantee:
+
+---The finally block is executed whether an exception is thrown or not.
+It ensures that certain cleanup tasks are performed, making it useful for releasing 
+resources like file handles, database connections, or network sockets.
+Exception Handling Scenarios:
+
+---When an exception occurs in the try block, the control immediately transfers to 
+the catch block. After executing the catch block (if applicable), the finally block 
+is executed. If no exception occurs in the try block, the finally block is executed 
+after the try block completes execution.
+
+
+Use Cases:
+
+---Closing Resources: Close open resources like files, database connections, 
+or network sockets.
+---Cleanup Tasks: Perform cleanup operations to leave the system in a consistent state.
