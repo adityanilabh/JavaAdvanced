@@ -1,0 +1,4 @@
+Advantage of Java throws keyword
+Now Checked Exception can be propagated (forwarded in call stack).
+
+It provides information to the caller of the method about the exception.
