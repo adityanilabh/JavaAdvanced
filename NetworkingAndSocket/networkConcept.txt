@@ -1,0 +1,41 @@
+Java Networking
+Java Networking is a concept of connecting two or more computing devices together so that we can share resources.
+
+Java socket programming provides facility to share data between different computing devices.
+
+Advantage of Java Networking
+Sharing resources
+Centralize software management
+
+he java.net package supports two protocols,
+
+TCP: Transmission Control Protocol provides reliable communication between the sender and receiver. TCP is used along with the Internet Protocol referred as TCP/IP.
+UDP: User Datagram Protocol provides a connection-less protocol service by allowing packet of data to be transferred along two or more nodes
+
+
+Java Networking Terminology
+The widely used Java networking terminologies are given below:
+Play
+
+Next
+Unmute
+Current TimeÂ 
+3:00
+/
+DurationÂ 
+18:10
+Â 
+Fullscreen
+
+Backward Skip 10s
+
+Play Video
+
+Forward Skip 10s
+
+IP Address
+Protocol
+Port Number
+MAC Address
+Connection-oriented and connection-less protocol
+Socket
