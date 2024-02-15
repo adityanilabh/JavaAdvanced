@@ -1,3 +1,13 @@
 JDBC: java database connectivity.
 JDBC stands for java database connectivity. 
 It is a standard api provided by oracle for java applications to interact with different set of data.
+important jdbc apis
+1. java.sql.driverManager
+2. java.sql.connection
+3. java.sql.statement
+4. java.sql.preparedStatement
+5. java.sql.CallableStatement
+6. java.sql.ResultSet
+7. java.sql.ResultSetMetaData
+8. java.sql.DatabaseMetaData
+9. java.sql.SQLException.

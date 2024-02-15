@@ -1,0 +1,26 @@
+1. Load the driver
+     Class.forName("com.mysql.jdbc.Driver")
+
+2. Create a connection:
+     Connection con(object = DriverManager.getConnection("url","username","password");
+     always import java.sql package.
+     here: url is jdbc:mysql://(localhost port name)/dbname(mysql).
+
+3. create query, statement, preparedStatement, and CallableStatement.
+   String q= "select * from students";: query
+
+   Statement stmt= con.createStatement(); // statement me step 2 ka con use kr rhe
+
+   ResultSet set = stmt.executeQuery(q);
+
+   so in this way, we use sql query in java.
+
+4. Process the data:
+      // here process the data, use while until data is not ending.
+      while(set.next()){
+           int id= set.getInt(); // we can also use getInt("column_name")
+           String name= set.getString("studentName");
+      }
+
+5. Close the connection.
+     con.close();
