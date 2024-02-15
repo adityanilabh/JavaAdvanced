@@ -1,41 +1,69 @@
 Java Networking
-Java Networking is a concept of connecting two or more computing devices together so that we can share resources.
+Java Networking is a concept of connecting two or more computing devices together 
+so that we can share resources.
 
-Java socket programming provides facility to share data between different computing devices.
+Java socket programming provides facility to share data between different 
+computing devices.
 
 Advantage of Java Networking
-Sharing resources
-Centralize software management
+1. Sharing resources
+2. Centralize software management
 
-he java.net package supports two protocols,
+The java.net package supports two protocols:
 
-TCP: Transmission Control Protocol provides reliable communication between the sender and receiver. TCP is used along with the Internet Protocol referred as TCP/IP.
-UDP: User Datagram Protocol provides a connection-less protocol service by allowing packet of data to be transferred along two or more nodes
+1. TCP: Transmission Control Protocol provides reliable communication between the 
+sender and receiver. TCP is used along with the Internet Protocol referred as TCP/IP.
+2. UDP: User Datagram Protocol provides a connection-less protocol service by 
+allowing packet of data to be transferred along two or more nodes
 
 
 Java Networking Terminology
 The widely used Java networking terminologies are given below:
-Play
 
-Next
-Unmute
-Current TimeÂ 
-3:00
-/
-DurationÂ 
-18:10
-Â 
-Fullscreen
 
-Backward Skip 10s
+1. IP Address
+2. Protocol
+3. Port Number
+4. MAC Address
+5. Connection-oriented and connection-less protocol
+6. Socket
 
-Play Video
+=================================================================================
+1.IP Address
+IP address is a unique number assigned to a node of a network e.g. 192.168.0.1 . 
+It is composed of octets that range from 0 to 255.
 
-Forward Skip 10s
+It is a logical address that can be changed.
 
-IP Address
-Protocol
-Port Number
-MAC Address
-Connection-oriented and connection-less protocol
-Socket
+
+2.Protocol
+A protocol is a set of rules basically that is followed for 
+  communication. For example:
+  TCP
+  FTP
+  Telnet
+  SMTP
+  POP etc.
+
+  Connection-oriented and connection-less protocol
+In connection-oriented protocol, acknowledgement is sent by the receiver. So 
+it is reliable but slow. The example of connection-oriented protocol is TCP.
+
+But, in connection-less protocol, acknowledgement is not sent by the receiver. 
+So it is not reliable but fast. The example of connection-less protocol is UDP.
+
+6) Socket
+A socket is an endpoint between two way communications.
+
+Visit next page for Java socket programming.
+
+java.net package
+The java.net package can be divided into two sections:
+
+A Low-Level API: It deals with the abstractions of addresses i.e. networking 
+identifiers, Sockets i.e. bidirectional data communication mechanism and 
+Interfaces i.e. network interfaces.
+A High Level API: It deals with the abstraction of URIs i.e. Universal Resource 
+Identifier, URLs i.e. Universal Resource Locator, and Connections i.e. connections 
+to the resource pointed by URLs.
+

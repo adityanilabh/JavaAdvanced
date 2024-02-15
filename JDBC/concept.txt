@@ -1,0 +1,3 @@
+JDBC: java database connectivity.
+JDBC stands for java database connectivity. 
+It is a standard api provided by oracle for java applications to interact with different set of data.
