@@ -1,0 +1,5 @@
+TO RUN JDBC, we have to:
+
+1. load the jdbc sql driver
+2. give url and initialise the connection( to that database).
+3. Give username and password, and then connect through driverManager.

@@ -1,0 +1,17 @@
+Problem Statement:
+Create a program that simulates a ticket booking system for a cinema. 
+The cinema has a limited number of seats, and multiple users are trying to book 
+tickets simultaneously. Implement a multi-threaded application where each thread
+ represents a user trying to book tickets. The program should ensure that two threads 
+ do not book the same seat at the same time, and it should also handle cases where 
+ all seats are booked.
+
+Requirements:
+
+The cinema has a total of 50 seats.
+Each user (thread) should randomly select a seat to book.
+If a seat is already booked by another user, the current user should try to 
+book another seat.
+Display a message for each successful booking, indicating the seat number and 
+the user who booked it.
+Ensure that the program terminates gracefully when all seats are booked.
